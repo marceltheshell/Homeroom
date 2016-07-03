@@ -1,7 +1,7 @@
 {
   "name": "klassroom",
   "description": "an app that helps teachers find optimal seating for students",
-  "main": "",
+  "main": "server.js",
   "authors": [
     "Marcel Degas <marcel.degas@gmail.com>"
   ],

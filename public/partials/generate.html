@@ -1,6 +1,6 @@
 <div class="container klassroom-logic">
 	<h2>Generate the optimal tables</h2>
-	<form class="form-horizontal" role="form">
+	<form class="form-horizontal body-text" role="form">
 		<div class="form-group">
 			<label class="col-sm-4 control-label">How many tables in your classroom?</label>
 			<div class="col-sm-2">
@@ -35,7 +35,7 @@
 		<div class="col-md-3 col-sm-4 col-xs-6" ng-repeat="table in tables">
 			<h4>Table #{{$index+1}}</h4>
 			<ul>
-				<li ng-repeat="person in table">
+				<li ng-repeat="person in table" class="body-text">
 					{{person.name}}
 				</li>
 			</ul>

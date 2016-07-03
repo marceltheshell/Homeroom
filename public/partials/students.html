@@ -3,7 +3,7 @@
         <div class="col-md-3">
             <div class="fixed">
                 <h2>Add a student</h2>
-                <form class="form-horizontal" role="form" ng-submit="addStudent()">
+                <form class="form-horizontal body-text" role="form" ng-submit="addStudent()">
                     <div class="form-group">
                         <label for="newStudentName" class="col-sm-2 control-label">Name</label>
                         <div class="col-sm-10">
@@ -17,7 +17,7 @@
 
         <div class="col-md-9">
             <h2>List of students</h2>
-            <table class="table">
+            <table class="table body-text">
                 <tr>
                     <th>Name</th>
                     <th ng-repeat="criterium in criteria">
@@ -52,7 +52,7 @@
             <a class="btn btn-primary btn-block" href="#/generate" ng-click="save()">Next</a>
         </div>
     </div>
-    <div class="alert alert-warning">
+    <div class="body-text alert alert-warning">
       <strong>Attention:</strong> Before assigning <strong>values</strong> to your students please page refresh, otherwise... well... you'll see :)  Sorry for the inconvenience, we're working on it.
     </div>
 </div>
